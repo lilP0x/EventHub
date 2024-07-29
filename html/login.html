@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chau+Philomene+One:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chau+Philomene+One:ital@0;1&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container-client">
+        <div class="information-supplier">
+            <h2>¿Eres Proveedor?</h2>
+            <p>Accede a tu cuenta para gestionar tus espacios y alcanzar más clientes.</p>
+            <button>Acceder</button>
+        </div>
+        <div class="client-login">
+            <div class="data-user">
+                <h2> Iniciar Sesión</h2>
+                <form>
+                    <div class="input-data">
+                        <label for="mail">Correo</label>
+                        <div class="data">
+                            <input type="text" id="mail" name="mail" required>
+                            <img src="/image/usuario.png">
+                        </div>
+                    </div>
+                    <div class="input-data">
+                        <label for="password-client">Contraseña</label>
+                        <div class="data">
+                            <input type="password" id="password-client" name="password-client" required>
+                            <img src="/image/candado.png">
+                        </div>
+                    </div>
+                    <input type="submit" value="Ingresar">
+                </form>
+                <p>¿Nuevo aquí? Regístrate para reservar espacios.</p>
+            </div>
+        </div>
+
+    </div>
+    
+    <div class="container-supplier">
+        <div class="supplier-login">
+            <div class="data-user">
+                <h2> Iniciar Sesión</h2>
+                <form>
+                    <div class="input-data">
+                        <label for="user">Usuario</label>
+                        <div class="data">
+                            <input type="text" id="user" name="user" required>
+                            <img src="/image/usuario.png">
+                        </div>
+                        
+                    </div>
+                    <div class="input-data">
+                        <label for="password-supplier">Contraseña</label>
+                        <div class="data">
+                            <input type="password" id="password-supplier" name="password-supplier" required>
+                            <img src="/image/candado.png">
+                        </div>
+                        
+                    </div>
+                    <input type="submit" value="Ingresar">
+                    <p>¿Tienes espacios? Regístrate para alquilarlos.</p>
+                </form>
+            </div>
+        </div>
+        <div class="information-client">
+            <h2>¿Eres Cliente?</h2>
+            <p>Accede a tu cuenta para encontrar y reservar los mejores espacios para tus eventos.</p>
+            <button>Acceder</button>
+        </div>
+
+    </div>
+    
+</body>
+</html>
