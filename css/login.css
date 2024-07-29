@@ -33,6 +33,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items:center ;
+    
 }
 
 .information-supplier p{
@@ -171,6 +172,7 @@ form input{
     display: flex;
     flex-direction: column;
     align-items:center ;
+    
 }
 
 .information-client p{
@@ -209,10 +211,7 @@ form input{
     color: #4d4a8c;
 }
 
-
-
-
-@media (max-width: 1024px) {
+@media (max-width: 800px) {
     body{
         display: flex;
         align-items: center;
