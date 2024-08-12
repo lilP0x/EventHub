@@ -211,6 +211,60 @@ form input{
     color: #4d4a8c;
 }
 
+.create-supplier{
+    background-color: #ffffffc9;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+    width: 92vw;
+}
+
+.create-supplier-form{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: space-between;
+
+}
+
+.principal-data{
+    height: 100%;
+    width: 50%;
+    background-color: aqua;
+}
+
+.complementary-information{
+    background-color: #4d4a8c;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+}
+
+.img-user img{
+    height: 100%;
+    width: 100%;
+}
+
+.img-user{
+
+    height: 25%;
+
+}
+.create-supplier input{
+    width: 50%;
+    border-radius: 10px;
+    font-size: 22px;
+    border-color: #4d4a8c;
+    background-color: white;
+    font-family: "Chau Philomene One", sans-serif;
+    color: #4d4a8c;
+}
+
 @media (max-width: 800px) {
     body{
         display: flex;
