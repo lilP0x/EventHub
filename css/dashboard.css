@@ -30,7 +30,8 @@ body {
   }
   
   .left-banner ul li h3 {
-    font-size: 1.2vw; /* Reduce font size if needed */
+    font-size: 1.6vw; /* Reduce font size if needed */
+    font-family: 'Chau Philomene One', sans-serif;
     margin: 0;
   }
   
@@ -61,6 +62,7 @@ body {
   
   .header h1 {
     font-size: 3vw;
+    font-family: 'Chau Philomene One', sans-serif;
     margin: 0;
   }
   
