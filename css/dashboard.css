@@ -9,8 +9,8 @@ body {
     width: 20%;
     background-color: #4a47a3;
     color: white;
-    padding: 2vw; /* Ajustado a viewport width */
-    border-radius: 1vw; /* Esquinas curvas ajustadas */
+    padding: 2vw; 
+    border-radius: 1vw; 
 }
 
 .left-banner ul {
@@ -19,17 +19,17 @@ body {
 }
 
 .left-banner ul li {
-    margin: 4vw 0; /* Margen ajustado a viewport width */
+    margin: 4vw 0; 
 }
 
 .left-banner ul li h1 {
-    font-size: 3vw; /* Tamaño de fuente ajustado */
+    font-size: 3vw; 
     margin: 0 0 3vw 0;
     font-family: 'Chau Philomene One', sans-serif;
 }
 
 .left-banner ul li h3 {
-    font-size: 1.5vw; /* Tamaño de fuente ajustado */
+    font-size: 1.5vw; 
     margin: 0;
 }
 
@@ -45,10 +45,10 @@ body {
 .content-container {
     width: 80%;
     background-color: white;
-    padding: 2vw; /* Ajustado a viewport width */
+    padding: 2vw; 
     display: flex;
     flex-direction: column;
-    border-radius: 1vw; /* Esquinas curvas ajustadas */
+    border-radius: 1vw; 
 }
 
 .header {
@@ -58,7 +58,7 @@ body {
 }
 
 .header h1 {
-    font-size: 3vw; /* Tamaño de fuente ajustado */
+    font-size: 3vw;
     margin: 0;
 }
 
@@ -68,12 +68,12 @@ body {
 }
 
 .user-info span {
-    margin-right: 1vw; /* Margen ajustado */
-    font-size: 1.5vw; /* Tamaño de fuente ajustado */
+    margin-right: 1vw; 
+    font-size: 1.5vw; 
 }
 
 .user-info img {
-    width: 5vw; /* Tamaño ajustado a viewport width */
+    width: 5vw; 
     height: 5vw;
     border-radius: 50%;
 }
@@ -82,12 +82,12 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-top: 2vw; /* Margen ajustado */
+    margin-top: 2vw; 
 }
 
 .card {
     background-color: #f5f5f5;
-    border-radius: 1vw; /* Esquinas curvas ajustadas */
+    border-radius: 1vw; 
     box-shadow: 0 0.5vw 1vw rgba(0, 0, 0, 0.1);
     width: 30%;
     padding: 2vw;
@@ -97,22 +97,22 @@ body {
 }
 
 .card img {
-    width: 10vw; /* Tamaño ajustado a viewport width */
+    width: 10vw; 
     height: 10vw;
 }
 
 .card h2 {
-    font-size: 2vw; /* Tamaño de fuente ajustado */
+    font-size: 2vw; 
     margin: 1vw 0;
 }
 
 .card p {
-    font-size: 1.5vw; /* Tamaño de fuente ajustado */
+    font-size: 1.5vw; 
     margin: 1vw 0;
 }
 
 .card .rating {
-    font-size: 1.8vw; /* Tamaño de fuente ajustado */
+    font-size: 1.8vw; 
     color: #ffbb00;
     margin: 1vw 0;
 }
@@ -121,7 +121,7 @@ body {
     background-color: #4a47a3;
     color: white;
     border: none;
-    padding: 1vw 2vw; /* Tamaño ajustado */
+    padding: 1vw 2vw; 
     border-radius: 2vw;
     cursor: pointer;
     transition: background-color 0.3s;
