@@ -13,11 +13,11 @@
 <link href="https://fonts.googleapis.com/css2?family=Chau+Philomene+One:ital@0;1&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container-client">
+    <div class="container-client" id="container-client">
         <div class="information-supplier">
             <h2>¿Eres Proveedor?</h2>
             <p>Accede a tu cuenta para gestionar tus espacios y alcanzar más clientes.</p>
-            <button>Acceder</button>
+            <button onclick="changeSupplier()">Acceder</button>
         </div>
         <div class="client-login">
             <div class="data-user">
@@ -45,7 +45,7 @@
 
     </div>
     
-    <div class="container-supplier">
+    <div class="container-supplier" id="container-supplier">
         <div class="supplier-login">
             <div class="data-user">
                 <h2> Iniciar Sesión</h2>
@@ -74,10 +74,11 @@
         <div class="information-client">
             <h2>¿Eres Cliente?</h2>
             <p>Accede a tu cuenta para encontrar y reservar los mejores espacios para tus eventos.</p>
-            <button>Acceder</button>
+            <button onclick="changeClient()">Acceder</button>
         </div>
     </div>
 
     <script src="/js/app.js" type="module"></script>
+    <script src="/js/interaction.js"></script>
 </body>
 </html>

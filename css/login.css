@@ -16,7 +16,7 @@ body {
 
 
 .container-client{
-    display: none;
+    display: flex;
     flex-direction: row;
     border-radius: 30px;
     height: 90vh ;
@@ -145,7 +145,7 @@ form input{
 }
 
 .container-supplier{
-    display: flex;
+    display: none;
     flex-direction: row;
     border-radius: 30px;
     height: 90vh ;
