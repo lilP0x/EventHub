@@ -6,12 +6,12 @@ body {
   }
   
   .left-banner {
-    width: 15%; /* Reduce el ancho del banner izquierdo */
+    width: 15%; 
     background-color: #4a47a3;
     color: white;
     padding: 2vw; 
     border-radius: 1vw; 
-    position: relative; /* Ensure it's positioned correctly */
+    position: relative; 
   }
   
   .left-banner ul {
@@ -24,13 +24,13 @@ body {
   }
   
   .left-banner ul li h1 {
-    font-size: 2.5vw; /* Reduce font size if needed */
+    font-size: 2.5vw; 
     margin: 0 0 3vw 0;
     font-family: 'Chau Philomene One', sans-serif;
   }
   
   .left-banner ul li h3 {
-    font-size: 1.6vw; /* Reduce font size if needed */
+    font-size: 1.6vw;
     font-family: 'Chau Philomene One', sans-serif;
     margin: 0;
   }
@@ -45,13 +45,13 @@ body {
   }
   
   .content-container {
-    width: 85%; /* Adjust width to fit the reduced banner */
+    width: 85%; 
     background-color: white;
     padding: 2vw; 
     display: flex;
     flex-direction: column;
     border-radius: 1vw; 
-    position: relative; /* Ensure correct positioning */
+    position: relative; 
   }
   
   .header {
@@ -141,7 +141,7 @@ body {
   
   .calendar-container {
     display: flex;
-    justify-content: flex-end; /* Align the calendar to the right */
+    justify-content: flex-end;
     width: 100%;
   }
   
