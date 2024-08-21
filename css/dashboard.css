@@ -1,0 +1,266 @@
+body {
+    display: flex;
+    background-color: #5d58b4;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .left-banner {
+    width: 15%; 
+    background-color: #4a47a3;
+    color: white;
+    padding: 2vw; 
+    border-radius: 1vw; 
+    position: relative; 
+  }
+  
+  .left-banner ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .left-banner ul li {
+    margin: 4vw 0; 
+  }
+  
+  .left-banner ul li h1 {
+    font-size: 2.5vw; 
+    margin: 0 0 3vw 0;
+    font-family: 'Chau Philomene One', sans-serif;
+  }
+  
+  .left-banner ul li h3 {
+    font-size: 1.6vw;
+    font-family: 'Chau Philomene One', sans-serif;
+    margin: 0;
+  }
+  
+  .left-banner ul li h3 a {
+    color: white;
+    text-decoration: none; 
+  }
+  
+  .left-banner ul li h3 a:hover {
+    text-decoration: underline;
+  }
+  
+  .content-container {
+    width: 85%; 
+    background-color: white;
+    padding: 2vw; 
+    display: flex;
+    flex-direction: column;
+    border-radius: 1vw; 
+    position: relative; 
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header h1 {
+    font-size: 3vw;
+    font-family: 'Chau Philomene One', sans-serif;
+    margin: 0;
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-info span {
+    margin-right: 1vw; 
+    font-size: 1.5vw; 
+  }
+  
+  .user-info img {
+    width: 5vw; 
+    height: 5vw;
+    border-radius: 50%;
+  }
+  
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 2vw; 
+  }
+  
+  .card {
+    background-color: #f5f5f5;
+    border-radius: 1vw; 
+    box-shadow: 0 0.5vw 1vw rgba(0, 0, 0, 0.1);
+    width: 30%;
+    padding: 2vw;
+    margin: 1vw;
+    text-align: center;
+    transition: transform 0.3s;
+  }
+  
+  .card img {
+    width: 10vw; 
+    height: 10vw;
+  }
+  
+  .card h2 {
+    font-size: 2vw; 
+    margin: 1vw 0;
+  }
+  
+  .card p {
+    font-size: 1.5vw; 
+    margin: 1vw 0;
+  }
+  
+  .card .rating {
+    font-size: 1.8vw; 
+    color: #ffbb00;
+    margin: 1vw 0;
+  }
+  
+  .card button {
+    background-color: #4a47a3;
+    color: white;
+    border: none;
+    padding: 1vw 2vw; 
+    border-radius: 2vw;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .card button:hover {
+    background-color: #37347a;
+  }
+  
+  .card:hover {
+    transform: translateY(-1vw);
+  }
+  
+  .calendar-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+  }
+  
+  .calendar {
+    background-color: #fff;
+    border-radius: 1vw;
+    padding: 2vw;
+    box-shadow: 0 0.5vw 1vw rgba(0, 0, 0, 0.1);
+  }
+  
+  .calendar .month {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 2vw;
+  }
+  
+  .calendar .weekdays {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.5vw;
+    margin: 1vw 0;
+  }
+  
+  .calendar .weekdays div {
+    width: 14.28%;
+    text-align: center;
+  }
+  
+  .calendar .days {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 1.5vw;
+  }
+  
+  .calendar .days .day {
+    width: 14.28%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 1px solid #f5f5f5;
+    border-radius: 0.5vw;
+    margin-bottom: 1vw;
+  }
+  
+  .calendar .days .day.active {
+    background-color: var(--primary-clr);
+    color: #fff;
+  }
+  
+  .calendar .goto-today {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1vw;
+  }
+  
+  .calendar .goto {
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid var(--primary-clr);
+  }
+  
+  .calendar .goto input {
+    height: 30px;
+    outline: none;
+    border: none;
+    padding: 0 20px;
+    color: var(--primary-clr);
+  }
+  
+  .calendar .goto-today button {
+    padding: 5px 10px;
+    border: 1px solid var(--primary-clr);
+    background-color: transparent;
+    cursor: pointer;
+    color: var(--primary-clr);
+  }
+  
+  .calendar .goto-today button:hover {
+    background-color: var(--primary-clr);
+    color: #fff;
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .container {
+      flex-direction: column;
+    }
+  
+    .left-banner {
+      width: 15%;
+    }
+  
+    .content-container {
+      width: 85%;
+    }
+  
+    .calendar-container {
+      flex-direction: column;
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+    .calendar .month {
+      height: 75px;
+    }
+    .calendar .weekdays {
+      height: 50px;
+    }
+    .calendar .days .day {
+      height: 40px;
+    }
+    .calendar .goto-today {
+      flex-direction: column;
+    }
+  }
+  

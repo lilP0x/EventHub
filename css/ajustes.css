@@ -1,0 +1,145 @@
+body {
+  display: flex;
+  background-color: #5d58b4;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.left-banner {
+  width: 15%; 
+  background-color: #4a47a3;
+  color: white;
+  padding: 2vw; 
+  border-radius: 1vw; 
+  position: relative; 
+}
+
+.left-banner ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.left-banner ul li {
+  margin: 4vw 0; 
+}
+
+.left-banner ul li h1 {
+  font-size: 2.5vw; 
+  margin: 0 0 3vw 0;
+  font-family: 'Chau Philomene One', sans-serif;
+}
+
+.left-banner ul li h3 {
+  font-size: 1.6vw; 
+  font-family: 'Chau Philomene One', sans-serif;
+  margin: 0;
+}
+
+.left-banner ul li h3 a {
+  color: white;
+  text-decoration: none; 
+}
+
+.left-banner ul li h3 a:hover {
+  text-decoration: underline;
+}
+
+.content-container {
+  width: 85%; 
+  background-color: white;
+  padding: 2vw; 
+  display: flex;
+  flex-direction: column;
+  border-radius: 1vw; 
+  position: relative; 
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h1 {
+  font-size: 3vw;
+  font-family: 'Chau Philomene One', sans-serif;
+  margin: 0;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+}
+
+.user-info span {
+  margin-right: 1vw; 
+  font-size: 1.5vw; 
+}
+
+.user-container{
+  display: flex;
+}
+
+.image-button-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button-container {
+  margin-top: 2vw;
+}
+
+.button-container button {
+  width: 100%; 
+  padding: 1vw 2vw;
+  font-size: 1.6vw; 
+  font-family: 'Chau Philomene One', sans-serif; 
+  color: white;
+  background-color: #4a47a3; 
+  border: none; 
+  border-radius: 0.5vw;
+  cursor: pointer; 
+  text-align: center; 
+}
+
+.button-container button:hover {
+  background-color: #5d58b4; 
+}
+
+
+.image-container img {
+  width: 30vw; 
+  height: 30vw;
+  border-radius: 50%;
+  
+}
+
+.image-container h2 {
+  font-size: 3vw;
+  margin: 0;
+}
+  
+.user-info img {
+  width: 5vw; 
+  height: 5vw;
+  border-radius: 40%;
+}
+
+
+.data-container {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Chau Philomene One', sans-serif;
+  margin-left: 20%;
+}
+
+
+.input-box input {
+  width: 100%; 
+  padding: 1vw; 
+  font-size: 1.5vw;
+  border-radius: 0.5vw; 
+  border: 1px solid #ccc; 
+  box-sizing: border-box;
+}
