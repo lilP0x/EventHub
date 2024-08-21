@@ -61,7 +61,7 @@ function loginSupplier(){
     if(users.has(user)){
         const userSesion = users.get(user);
         if(userSesion.amI(passwordSesion)){
-            window.location.href = 'j.html'; //cambiar a lo de juan
+            window.location.href = 'dashboard.html'; //cambiar a lo de juan
         }else{
             alert('Contraseña incorrecta');
         }
