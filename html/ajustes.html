@@ -4,70 +4,114 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EventHub</title>
+    <link rel="stylesheet" href="/css/dashboard.css">
     <link rel="stylesheet" href="/css/ajustes.css">
     <link href="https://fonts.googleapis.com/css2?family=Chau+Philomene+One&display=swap" rel="stylesheet">
 </head>
-
-
 <body>
+    <div class="container">
+        <div class="left-banner">
+            <div class="principal">
+                <h2>EventHub</h2>
+                <ul>
+                    <li><h3>
+                        <div class="option">
+                            <img src="/image/dashboard.png">
+                            <a href="dashboard.html">Dashboard</a>
+                        </div> 
+                    </h3></li>
+                    <li><h3>
+                        <div class="option">
+                            <img src="/image/reserved.png">
+                            <a href="reservas.html">Reservas</a>
+                        </div> 
+                            
+                    </h3></li>
+                    <li><h3>
+                        <div class="option">
+                            <img src="/image/box.png">
+                            <a href="espacios.html">Espacios</a>
+                        </div>      
+                    </h3></li>
+                </ul>
+            </div>
+            <div class="exit">
+                <ul>
+                    <li><h3>
+                        <div class="option">
+                            <img src="/image/settings.png">
+                            <a onclick="ajustes()">Ajustes</a>
+                        </div> 
+                    </h3></li>
+                    <li><h3>
+                        <div class="option">
+                            <img src="/image/sign-out.png">
+                            <a onclick="exit()">Salir</a>
+                        </div> 
+                    </h3></li>
+                </ul>
     
-    <div class="left-banner">
-        <ul>
-            <li><h1>EventHub</h1></li>
-            <li><h3><a href="dashboard.html">Dashboard</a></h3></li>
-            <li><h3><a href="reservas.html">Reservas</a></h3></li>
-            <li><h3><a href="espacios.html">Espacios</a></h3></li>
-            <li><h3><a href="ajustes.html">Ajustes</a></h3></li>
-            <li><h3><a href="salir.html">Salir</a></h3></li>
-        </ul>
-    </div>
-
-    <div class="content-container">
-        <div class="header">
-            <h1>Mi cuenta</h1>          
-        </div>
-
-        <div class="user-container">
-            
-            <div class="image-button-container">
-
-                <div class="image-container">
-                    <img src="/images/user.jpg" alt="User Image">
-                </div>
-
-                <div class="button-container">
-                    <button>
-                        Editar
-                    </button>
-                </div>
-
             </div>
             
-            <div class="data-container">
-
-                <h2>Juanito</h2>
-            
-                <h2>ID</h2>
-                <div class="input-box">
-                    <input type="text">
-                </div>
-            
-                <h2>Correo</h2>
-                <div class="input-box">
-                    <input type="email" >
-                </div>
-            
-                <h2>Contraseña</h2>
-                <div class="input-box">
-                    <input type="password" value="********" disabled>
-                </div>
-            </div>
-
-
         </div>
+    
+        <div class="content-container">
+            <div class="header">
+                <h1>Mi cuenta</h1>          
+            </div>
             
+            <div class="user-container">
+                
+                <div class="image-button-container">
+            
+                    <div class="image-container">
+                        <img src="/images/user.jpg" alt="User Image">
+                    </div>
+            
+                    <div class="button-container">
+                        <button>
+                            Editar
+                        </button>
+                    </div>
+            
+                </div>
+                
+                <div class="data-container">
+            
+                    <h2>Juanito</h2>
+                
+                    <h2>ID</h2>
+                    <div class="input-box">
+                        <input type="text">
+                    </div>
+                
+                    <h2>Correo</h2>
+                    <div class="input-box">
+                        <input type="email" >
+                    </div>
+                
+                    <h2>Contraseña</h2>
+                    <div class="input-box">
+                        <input type="password" value="********" disabled>
+                    </div>
+                </div>
+            
+            
+            </div>
+                
+        </div>
+
+        <div class="danger" id="danger">
+            <h2>¿Está seguro que desea cerrar sesión?</h2>
+            <div class="take-decision">
+                <button onclick="acceptExit()"> Confirmar </button>
+                <button onclick="deniedExit()"> Cancelar </button>
+            </div>
+        </div>
     </div>
-
-
+    <script src="/js/app.js" type="module"></script>
+    <script src="/js/interaction.js"></script>
 </body>
 </html>
+
+

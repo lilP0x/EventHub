@@ -14,7 +14,7 @@ function changeClient() {
 }
 
 function newSupplier() {
-    window.location.href= "/html/j.html" 
+    window.location.href= "/html/j.html";
 
 }
 
@@ -23,8 +23,14 @@ function exit(){
     alert.style.display = "flex";
 }
 
+
+
 function acceptExit(){
-    window.location.href= "/html/login.html" 
+    window.location.href= "/html/login.html";
+}
+
+function ajustes(){
+    window.location.href= "/html/ajustes.html";
 }
 
 function deniedExit(){
@@ -32,3 +38,6 @@ function deniedExit(){
     alert.style.display = "none";
 }
 
+function ingresaSupplier(){
+    window.location.href= "/html/dashboard.html";
+}

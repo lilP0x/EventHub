@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/css/login.css">
+    <title>Crear Cuenta</title>
+    <link rel="stylesheet" href="/css/create.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Chau+Philomene+One:ital@0;1&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Chau+Philomene+One:ital@0;1&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chau+Philomene+One:ital@0;1&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     
@@ -20,49 +20,50 @@
             <div class="create-supplier-form">
                 <div class="principal-data">
                     <div class="input-data">
-                        <label>Nombre</label>
+                        <label for="name-supplier">Nombre</label>
                         <div class="data">
                             <input type="text" id="name-supplier" name="name-supplier" required>
-                            <img src="/image/usuario.png">
+                            <img src="/image/usuario.png" alt="Icono Nombre">
                         </div>
                     </div>
                     <div class="input-data">
-                        <label>Correo</label>
+                        <label for="mail-supplier">Correo</label>
                         <div class="data">
-                            <input type="text" id="mail-supplier" name="mail-supplier" required>
-                            <img src="/image/usuario.png">
+                            <input type="email" id="mail-supplier" name="mail-supplier" required>
+                            <img src="/image/correo-electronico.png" alt="Icono Correo">
                         </div>
                     </div>
                     <div class="input-data">
-                        <label>Telefono</label>
+                        <label for="phone-supplier">Teléfono</label>
                         <div class="data">
                             <input type="text" id="phone-supplier" name="phone-supplier" required>
-                            <img src="/image/usuario.png">
+                            <img src="/image/llamar.png" alt="Icono Teléfono">
                         </div>
                     </div>
                     <div class="input-data">
-                        <label>Contraseña</label>
+                        <label for="passwordNew-supplier">Contraseña</label>
                         <div class="data">
                             <input type="password" id="passwordNew-supplier" name="passwordNew-supplier" required>
-                            <img src= "/image/candado.png">
+                            <img src="/image/candado.png" alt="Icono Contraseña">
                         </div>
                     </div>
                 </div>
                 <div class="complementary-information">
                     <div class="input-data">
-                        <label>Telefono</label>
-                       <div class="data">
+                        <label for="address-supplier">Dirección</label>
+                        <div class="data">
                             <input type="text" id="address-supplier" name="address-supplier" required>
-                            <img src="/image/usuario.png">
+                            <img src="/image/mapas-y-banderas.png" alt="Icono Dirección">
                         </div>
                     </div> 
                     <div class="img-user">
-                        <img src="/image/usuario.png">
+                        <img src="/image/usuario.png" alt="Imagen de Usuario">
                     </div>
                 </div>
             </div>
-            <button type="submit">Crear cuenta</button>
+            <button type="submit" onclick="ingresaSupplier()">Crear cuenta</button>
         </form>
+        <p>¿Ya tienes una cuenta? <a href="/html/login.html">Ingresa</a></p>
     </div>
 
     <script src="/js/app.js" type="module"></script>

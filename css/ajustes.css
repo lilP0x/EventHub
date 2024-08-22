@@ -1,18 +1,4 @@
-body {
-  display: flex;
-  background-color: #5d58b4;
-  margin: 0;
-  font-family: Arial, sans-serif;
-}
 
-.left-banner {
-  width: 15%; 
-  background-color: #4a47a3;
-  color: white;
-  padding: 2vw; 
-  border-radius: 1vw; 
-  position: relative; 
-}
 
 .left-banner ul {
   list-style-type: none;

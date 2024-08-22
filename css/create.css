@@ -1,0 +1,145 @@
+body {
+    font-family: 'Chau Philomene One', sans-serif;
+    background-image: url("/image/tenoha_milano.jpg");
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.create-supplier {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.create-supplier h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #3a3a3a;
+}
+
+.create-supplier-form {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.principal-data, .complementary-information {
+    width: 48%;
+}
+
+.input-data {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-data label {
+    font-size: 18px;
+    color: #5a5a5a;
+    margin-bottom: 5px;
+}
+
+.data {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.data input {
+    width: 100%;
+    padding: 10px 40px 10px 10px; /* Espacio para el icono en el lado derecho */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+}
+
+.data img {
+    position: absolute;
+    right: 10px; /* Coloca el icono en el lado derecho */
+    width: 24px;
+    height: 24px;
+}
+
+.complementary-information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    height: 100%; 
+    text-align: center; 
+}
+
+.img-user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1; 
+}
+
+.img-user img {
+    width: 200px; 
+    border-radius: 50%;
+    border: 2px solid #ddd;
+}
+
+
+button[type="submit"] {
+    width: 100%;
+    padding: 15px;
+    background-color: #6a67ce;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: 'Roboto Slab', serif;
+}
+
+button[type="submit"]:hover {
+    background-color: #5753c0;
+}
+
+.create-supplier p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.create-supplier p a {
+    color: #6a67ce;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.create-supplier p a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+    .create-supplier-form {
+        flex-direction: column;
+    }
+
+    .principal-data, .complementary-information {
+        width: 100%;
+    }
+
+    .complementary-information {
+        margin-top: 20px;
+    }
+}
