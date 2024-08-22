@@ -54,6 +54,8 @@ function createSupplier(event) {
 }
 
 
+
+
 function loginSupplier(){
     event.preventDefault(); 
     const user = document.getElementById('user').value;
