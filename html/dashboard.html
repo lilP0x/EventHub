@@ -45,7 +45,7 @@
                     <li><h3>
                         <div class="option">
                             <img src="/image/sign-out.png">
-                            <a href="/html/login.html">Salir</a>
+                            <a onclick="exit()">Salir</a>
                         </div> 
                     </h3></li>
                 </ul>
@@ -113,6 +113,16 @@
                 </div>
             </div>
         </div>
+
+        <div class="danger" id="danger">
+            <h2>¿Está seguro que desea cerrar sesión?</h2>
+            <div class="take-decision">
+                <button onclick="acceptExit()"> Confirmar </button>
+                <button onclick="deniedExit()"> Cancelar </button>
+            </div>
+        </div>
     </div>
+    <script src="/js/app.js" type="module"></script>
+    <script src="/js/interaction.js"></script>
 </body>
 </html>
