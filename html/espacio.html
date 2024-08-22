@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Información del Espacio</title>
+    <link rel="stylesheet" href="/css/espacios.css">
+</head>
+<body>
+    <div class="left-banner">
+        <div class="principal">
+            <h2>EventHub</h2>
+            <ul>
+                <li><h3>
+                    <div class="option">
+                        <img src="/image/dashboard.png">
+                        <a href="dashboard.html">Dashboard</a>
+                    </div> 
+                </h3></li>
+                <li><h3>
+                    <div class="option">
+                        <img src="/image/reserved.png">
+                        <a href="reservas.html">Reservas</a>
+                    </div> 
+                </h3></li>
+                <li><h3>
+                    <div class="option">
+                        <img src="/image/box.png">
+                        <a href="espacios.html">Espacios</a>
+                    </div>      
+                </h3></li>
+            </ul>
+        </div>
+        <div class="exit">
+            <ul>
+                <li><h3>
+                    <div class="option">
+                        <img src="/image/settings.png">
+                        <a onclick="ajustes()">Ajustes</a>
+                    </div> 
+                </h3></li>
+                <li><h3>
+                    <div class="option">
+                        <img src="/image/sign-out.png">
+                        <a onclick="exit()">Salir</a>
+                    </div> 
+                </h3></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="content">
+            <img id="space-image" alt="Imagen del Espacio">
+            <h1 id="space-title"></h1>
+            <p id="space-description"></p>
+            <span id="space-rating"></span>
+            <!-- Botón Reservar+ -->
+            <button id="reserve-button" class="button" onclick="makeReservation()">Reservar</button>
+        </div>
+    </div>
+
+    <script src="/js/loadSpaceInfo.js"></script>
+</body>
+</html>
