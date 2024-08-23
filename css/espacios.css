@@ -1,0 +1,134 @@
+body {
+    display: flex;
+    background-image: url("/image/fondo.png");
+    margin-top: 7vh;
+    font-family: Arial, sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: #f5f5f5;
+    border-radius: 1vw; 
+    box-shadow: 0 0.5vw 1vw rgba(0, 0, 0, 0.1);
+    flex: 1 1 30%; /* El 1 1 30% permite que las cards se adapten al tamaño del contenedor y se distribuyan en fila */
+    text-align: center;
+    transition: transform 0.3s;
+    box-sizing: border-box;
+}
+
+
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 2vw; 
+  }
+  
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 2vw; 
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.card {
+    background-color: #f5f5f5;
+    border-radius: 1vw; 
+    box-shadow: 0 0.5vw 1vw rgba(0, 0, 0, 0.1);
+    flex: 1 1 30%; /* El 1 1 30% permite que las cards se adapten al tamaño del contenedor y se distribuyan en fila */
+    max-width: 30%;
+    padding: 2vw;
+    margin: 1vw;
+    text-align: center;
+    transition: transform 0.3s;
+    box-sizing: border-box;
+}
+
+.button {
+    background-color: #4a47a3;
+    color: white;
+    border: none;
+    padding: 1vw 2vw; 
+    border-radius: 2vw;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+.left-banner {
+    
+    background-color: #5d58b4da;
+    display: flex;
+    flex-direction: column;
+    width: 15%; 
+    height: 100%;
+    color: white;
+    padding: 2vw; 
+    border-radius: 1vw; 
+    
+}
+
+.option a:hover {
+    color: #93c1da; /* Cambia el color al pasar el mouse */
+}
+
+
+
+.option {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 20px;
+    height: 6%;
+    width: 100%;
+}
+  
+.option img{
+    height: 35%;
+    width: 35%;
+    margin-right: 10px;
+}
+
+.principal h2 {
+    font-size: 2.9vw; 
+    margin: 0 0 3vw 0;
+    font-family: 'Chau Philomene One', sans-serif;
+}
+
+
+.left-banner ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.left-banner ul li {
+    margin: 4vw 0; 
+}
+
+.left-banner .principal ul li h1 {
+    font-size: 2.5vw; 
+    margin: 0 0 3vw 0;
+    font-family: 'Chau Philomene One', sans-serif;
+}
+
+.left-banner ul li h3 {
+    font-size: 1.6vw;
+    font-family: 'Chau Philomene One', sans-serif;
+    margin: 0;
+}
+
+.left-banner ul li h3 a {
+    color: white;
+    text-decoration: none; 
+}
+
+.left-banner ul li h3 a:hover {
+    text-decoration: underline;
+}

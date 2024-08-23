@@ -11,4 +11,6 @@ export class Client extends User {
     createBooking(booking) {
         this.bookings.push(booking);
     }
+
+    
 }
