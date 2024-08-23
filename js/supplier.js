@@ -7,6 +7,7 @@ export class Supplier extends User {
         this.phoneNumber = phoneNumber;
         this.address = address;
         this.spaces = [];
+        this.bookings = [];
     }
 
     createSpace(space) {
